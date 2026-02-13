@@ -8,8 +8,9 @@
 
 ## 🖥️ 프로젝트 소개
 - 기본적인 커뮤니티의 게시판 백엔드 API 서버 구현 토이 프로젝트
-- 간단 샘플 테스트용 리액트 프론트엔드 추가 예정
-  <img width="879" height="532" alt="스크린샷 2025-07-31 204619" src="https://github.com/user-attachments/assets/1eff9413-1205-41e7-9fda-7f31aa8a9fc6" />
+- 샘플 테스트용 리액트 프론트엔드 추가
+  <img width="1909" height="951" alt="image" src="https://github.com/user-attachments/assets/26948359-802a-41c2-9031-4668353f2afe" />
+  
 
 ## 🚧 실행 추가 설정
 - `src/main/resources/application.properties` 파일 작성 필요
@@ -58,7 +59,7 @@
 - 프로젝트 실행 시 JPA가 Entity 클래스의 테이블 자동 생성
 
 ## 🕰️ 개발 기간
-- 1차 MVP 완료 : 26.1.27 ~
+- 1차 MVP 완료 : 26.1.27 ~ 26.2.13
 
 ## 🧑‍🤝‍🧑 맴버구성
 - 김인용 - 백엔드 : JWT 인증/인가, 게시판 기본 CRUD, 기능 추가 예정
