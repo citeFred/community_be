@@ -24,7 +24,7 @@ public class CommentService {
     public CommentResponseDto createComment(CommentRequestDto commentRequestDto, Long boardId, Long articleId, PrincipalDetails principalDetails) {
         User logginedUser = principalDetails.getUser();
         // 해당 id의 게시글이 존재하는지 확인
-        Article foundArticle = articleService.getValidBoardAndArticleById(boardId, articleId);
+        Article foundArticle = articleService.getValidBoardAndArticleById(articleId, boardId);
         // RequestDto -> Entity 변환
         Comment newComment;
         if (commentRequestDto.getParentCommentId() != null) {
